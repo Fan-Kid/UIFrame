@@ -15,7 +15,8 @@ namespace GUIFrame
 
     public class BackUISequenceData
     {
-       // TODO 
+        public UIBase hideTargetUI;
+        public List<UIID> backShowTargets;
     }
 
     public class ShowUIData
